@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346 17% 70%);
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+/* #part1{
+    height:80% ;
+    width: 80%;      main kuchh aur tareeke se bna rha tha but is see my ligic is not satisfy to make it may be idk
+    background-color: #fff;
+    margin: 10vh  18vh;
+    position: absolute;
+} */
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+#part2 {
+    height: 100%;
+    width: 67%;
+    background-color: rgb(0, 187, 255);
+    background-image: url(https://images.unsplash.com/photo-1625224590908-d02e98d0cb3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color:hsla(0, 2%, 41%, 0.371);
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: red; */
+}
+#text{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color:red; */
+    left: 8%;
+    top: 40%;
+    transform: translate(0 -50%) ;
+}
+#text>h1{
+    font-size: 80px;
+    font-weight:800 ;
+    text-transform: uppercase;
+    line-height: 75px;
+    letter-spacing:5px ;
+    color: #fff;
+}
+#small-image{
+    background-image: url("https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"  );
+    background-size: cover;
+    position: center;
+
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    /* background-color: red; */
+    top: 35%;
+    right: 4%;
+    transform: translate(0 -50);
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color:hsla(0, 0%, 71%, 0.371);
+}
+#vertical-text{
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    transform: rotate(90deg);
+    right: -70%;
+    /* top: -3%; */
+    transform-origin: 0% 0%;
+}
+#vertical-text>h1{
+    font-size: 70px;
+    font-weight: 800;
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+#nav>img{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 5%;
+    left: 10%;
+    width: 100px;
+    /* background-color: rebeccapurple; */
+}
+
